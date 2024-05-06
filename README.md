@@ -13,7 +13,7 @@
   - [Aplikacja typu DJ](https://github.com/danielduch212/DjProgram)
     
 - <b> Aplikacja obsługująca biblioteke (3 widoki) (C#) (WInForms) 2023 (Praca zespołowa 3 osoby). </b>
-  <b> Aplikacja napisana w .Net używająca Winforms. Była to praca zespołowa - aplikacja łacznie zarządzała trzema widokami które reprezentowały system biblioteczny </b>
+  <b> Aplikacja napisana w .Net używająca Winforms. Użycie Entity Framework przy tworzeniu bazy danych. Była to praca zespołowa - aplikacja łacznie zarządzała trzema widokami które reprezentowały system biblioteczny </b>
   - [Aplikacja bilioteka](https://github.com/danielduch212/LibraryManagmentStudio)
     
 - <b>Histogram Barw (C#) (Assembler) 2022. </b>
