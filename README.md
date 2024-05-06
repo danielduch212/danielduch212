@@ -13,13 +13,13 @@
     
 - <b>Histogram Barw (C#) (Assembler) 2022 </b>
   <b> Aplikacja łączaca .Net z językiem assemblera. Aplikacja działała w taki sposób: użytkownik załadowywał obrazek w GUI - a program tworzył na podstawie jego histogram barw</b>
-  - [Histogram barw](https://github.com/danielduch212/Histogram-Barw))
+  - [Histogram barw](https://github.com/danielduch212/Histogram-Barw)
 
 - <b> Aplikacja zarządzająca sprzedażą biletów lotniczych (C#) 2021/2022 </b>
   <b> Aplikacja napisana w platformie .NET z użyciem WinForms do GUI. Zarządzała sprzedażą biletów lotniczych w różnych kierunkach </b>
-  - [PolslAir](https://github.com/danielduch212/PolslAir))
+  - [PolslAir](https://github.com/danielduch212/PolslAir)
     
 - <b> Aplikacja Drzewo Decyzyjne (C++) 2020/2021 </b>
   <b> Pierwszy projekt programistyczny - w całości napisany w języku C++ </b>
-  - [Drzewo Decyzyjne](https://github.com/danielduch212/Drzewo-Decyzyjne-2020))
+  - [Drzewo Decyzyjne](https://github.com/danielduch212/Drzewo-Decyzyjne-2020)
 
