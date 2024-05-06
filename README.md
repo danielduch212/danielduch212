@@ -4,7 +4,7 @@
 
 - <b> Aplikacja typu DJ 2023/2024 (C#) (WPF) </b>
   <b> Aplikacja jest napisana w .NET z wykorzystaniem WPF do GUI </b>
-  <b> Zglębia głownie techniki przetwarzania dźwięku oraz wielowątkowość </b>
+  <b> Zglębia głównie techniki przetwarzania dźwięku oraz wielowątkowość </b>
   - [Aplikacja typu DJ](https://github.com/danielduch212/DjProgram)
     
 - <b> Aplikacja obsługująca biblioteke (3 widoki) (C#) (WInForms) 2023 (Praca zespołowa 3 osoby) </b>
