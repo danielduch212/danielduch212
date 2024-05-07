@@ -5,6 +5,7 @@
 - <b> Aplikacja typu DJ 2023/2024 (C#) (WPF). </b>
   <b> Aplikacja jest napisana w .NET z wykorzystaniem WPF do GUI. Wykorzystany również został Python wraz z jego bilioteką Librosa. </b>
   <b> Zglębia głównie techniki przetwarzania dźwięku oraz wielowątkowość. </b>
+  <b> Aplikacja została napisana według wzorca MVVM. </b>
 
   ![screen2](https://github.com/danielduch212/danielduch212/assets/72360092/99f4fc95-b9b1-417a-9494-f748649bc349)
 
