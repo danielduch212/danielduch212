@@ -1,31 +1,44 @@
 <h1>Daniel Duchnowicz <br/></h1>
 
-<h2> Projekty Akademickie:</h2>
+<h2> Current Projects </h2>
 
-- <b> Aplikacja typu DJ 2023/2024 (C#) (WPF). </b>
-  <b> Aplikacja jest napisana w .NET z wykorzystaniem WPF do GUI. Wykorzystany również został Python wraz z jego bilioteką Librosa. </b>
-  <b> Zglębia głównie techniki przetwarzania dźwięku oraz wielowątkowość. </b>
-  <b> Aplikacja została napisana według wzorca MVVM. </b>
+- <b> ASP.NET 8 API </b>
+  <b> It is an api for car repair workshops. </b>
+  <b> Concept is that multiple workshops can access this api and use multiple useful functions. </b>
+  <b> This api provides 3 type of users: Admin, Workshop Owner and Mechanic. </b>
+  <b> Each user has access to different functions </b>
+  <b> This api is written in ASP .NET 8 with Entity Framework to build database and with other useful packages </b>
+  <b> It is build using Clean Code Pattern and CQRS </b>
+  - [CarRepairWorkshop_API](https://github.com/danielduch212/CarRepairWorkshops)
+  
 
+
+<h2> Academic Projects:</h2>
+
+- <b> DJ App 2023/2024 (C#) (WPF). </b>
+  <b> The application is written in .NET using WPF for the GUI. Python is also used along with its Librosa library. </b>
+  <b> It mainly explores sound processing techniques and multithreading. </b>
+  <b> The application is written according to the MVVM pattern. </b>
+  
   ![screen2](https://github.com/danielduch212/danielduch212/assets/72360092/99f4fc95-b9b1-417a-9494-f748649bc349)
 
 
 
-  - [Aplikacja typu DJ](https://github.com/danielduch212/DjProgram)
+  - [DJ App](https://github.com/danielduch212/DjProgram)
     
-- <b> Aplikacja obsługująca biblioteke (3 widoki) (C#) (WInForms) 2023 (Praca zespołowa 3 osoby). </b>
-  <b> Aplikacja napisana w .Net używająca Winforms. Użycie Entity Framework przy tworzeniu bazy danych. Była to praca zespołowa - aplikacja łacznie zarządzała trzema widokami które reprezentowały system biblioteczny </b>
-  - [Aplikacja bilioteka](https://github.com/danielduch212/LibraryManagmentStudio)
+- <b> Application supporting a library (3 views) (C#) (WinForms) 2023 (Teamwork of 3 people). </b>
+  <b> The application is written in .NET using WinForms. Entity Framework was used for database creation. It was a team project - the application managed three views representing the library system. </b>
+  - [Application supporting a library](https://github.com/danielduch212/LibraryManagmentStudio)
     
-- <b>Histogram Barw (C#) (Assembler) 2022. </b>
-  <b> Aplikacja łączaca .Net z językiem assemblera. Aplikacja działała w taki sposób: użytkownik załadowywał obrazek w GUI - a program tworzył na podstawie jego histogram barw. </b>
-  - [Histogram barw](https://github.com/danielduch212/Histogram-Barw)
+- <b> Color Histogram (C#) (Assembler) 2022. </b>
+  <b> An application combining .NET with assembler language. The application worked as follows: the user loaded an image in the GUI, and the program generated its color histogram. </b>
+  - [Color Histogram](https://github.com/danielduch212/Histogram-Barw)
 
-- <b> Aplikacja zarządzająca sprzedażą biletów lotniczych (C#) 2021/2022. </b>
-  <b> Aplikacja napisana w platformie .NET z użyciem WinForms do GUI. Zarządzała sprzedażą biletów lotniczych w różnych kierunkach. </b>
+- <b> Airline Ticket Management Application (C#) 2021/2022. </b>
+  <b> The application is written on the .NET platform using WinForms for the GUI. It managed the sale of airline tickets to various destinations. </b>
   - [PolslAir](https://github.com/danielduch212/PolslAir)
     
-- <b> Aplikacja Drzewo Decyzyjne (C++) 2020/2021. </b>
-  <b> Pierwszy projekt programistyczny - w całości napisany w języku C++. </b>
-  - [Drzewo Decyzyjne](https://github.com/danielduch212/Drzewo-Decyzyjne-2020)
+- <b> Decision Tree app (C++) 2020/2021. </b>
+  <b> My first programming project. It is written in C++. </b>
+  - [Decision Tree](https://github.com/danielduch212/Drzewo-Decyzyjne-2020)
 
