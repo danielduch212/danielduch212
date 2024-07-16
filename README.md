@@ -10,7 +10,7 @@
   <b> Each user has access to different functions </b>
   <b> This api is written in ASP .NET 8 with Entity Framework to build database and with other useful packages </b>
   <b> It is build using Clean Code Pattern and CQRS </b>
-  - [CarRepairWorkshop_API](https://github.com/danielduch212/CarRepairWorkshops)
+  - (https://github.com/danielduch212/CarRepairWorkshops)
   
 
 
