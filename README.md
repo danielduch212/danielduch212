@@ -12,7 +12,8 @@
   <b> It is build using Clean Code Pattern and CQRS </b>
   <b> The Application is adjusted to work with Azure Web Services + SQL Database </b>
   <b> It uses Blob Storage - and have functions to manage access to it. </b>
-  - (https://github.com/danielduch212/CarRepairWorkshops)
+  <b> Used basic CI/CD </b>
+  https://github.com/danielduch212/CarRepairWorkshops
   
 
 
