@@ -5,9 +5,8 @@ In the past, I worked on desktop apps using WinForms and WPF - sample projects a
 
 Currently, I build projects using <u>Blazor technology - both WASM and Blazor Server</u>.
 
-## Recent Projects
 
-### <u>**Patient Blazor Hybrid (WASM + Server) App**</u>
+## <u>**Patient Blazor Hybrid (WASM + Server) App**</u>
 (Currently working on )
 
 ![photo](https://github.com/user-attachments/assets/abf23f67-e4bc-4dea-9c3d-dabc1d010788)
@@ -25,7 +24,7 @@ It is made in clean code Pattern. Whole infrastructure is made using Azure Cloud
 [Patient_Repository](https://github.com/danielduch212/Patient)
 
 
-### <u>**ASP.NET 8 API Car Repair Workshops**</u>
+## <u>**ASP.NET 8 API Car Repair Workshops**</u>
 (More in the README of the project.)
 
 ![carRepairWorkshopsSwagger](https://github.com/user-attachments/assets/931bb093-8bd9-419b-98fb-c2020a8eb01d)
@@ -45,7 +44,6 @@ Basic CI/CD is used.
 
 ## Previous Projects
 
-### Academic Projects
 
 - **DJ App 2023/2024 (C#) (WPF)**  
   The application is written in .NET using WPF for the GUI. Python is also used along with its Librosa library.  
