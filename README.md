@@ -1,13 +1,13 @@
 # Daniel Duchnowicz  
-.NET Developer - interested in this technology since studying at the Silesian University of Technology.
+<u>.NET Developer</u> - interested in this technology since studying at the <u>Silesian University of Technology.</u>
 
 In the past, I worked on desktop apps using WinForms and WPF - sample projects are down below.
 
-Currently, I build projects using Blazor technology - both WASM and Blazor Server.
+Currently, I build projects using <u>Blazor technology - both WASM and Blazor Server</u>.
 
-## Current Projects
+## Recent Projects
 
-### Patient Blazor Hybrid (WASM + Server) App
+### <u>**Patient Blazor Hybrid (WASM + Server) App**</u>
 (Currently working on )
 
 ![photo](https://github.com/user-attachments/assets/abf23f67-e4bc-4dea-9c3d-dabc1d010788)
@@ -18,16 +18,14 @@ It is made in clean code Pattern. Whole infrastructure is made using Azure Cloud
 (Sql base, Blob Storage, Insights, App Service.
 
 
-
-
-You can watch this app working here:
+<u>You can watch this app working here: </u>
 [Dzielny-pacjent](https://dzielny-pacjent.pl)
 
-Repository:
+<u>Repository: </u>
 [Patient_Repository](https://github.com/danielduch212/Patient)
 
 
-### ASP.NET 8 API Car Repair Workshops
+### <u>**ASP.NET 8 API Car Repair Workshops**</u>
 (More in the README of the project.)
 
 ![carRepairWorkshopsSwagger](https://github.com/user-attachments/assets/931bb093-8bd9-419b-98fb-c2020a8eb01d)
@@ -39,10 +37,10 @@ The application is adjusted to work with Azure Web Services + SQL Database.
 It uses Blob Storage and has functions to manage access to it.  
 Basic CI/CD is used.
 
-I made the Azure infrastructure for this project, and you can access this API by clicking this site:  
+<u>I made the Azure infrastructure for this project, and you can access this API by clicking this site:  </u>
 [Swagger for Car Repair Workshops API](https://carrepairworkshops-api-prod-a8cfb0eddjbmbmc8.polandcentral-01.azurewebsites.net/swagger/index.html)
 
-And here is the direct link to the repository of this API:  
+<u>And here is the direct link to the repository of this API: </u>
 [CarRepairWorkshops Repository](https://github.com/danielduch212/CarRepairWorkshops)
 
 ## Previous Projects
