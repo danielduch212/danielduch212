@@ -38,6 +38,8 @@ This API is written in ASP.NET 8 with Entity Framework to build the database and
 ## Previous Projects
 
 
+
+
 - **DJ App 2023/2024 (C#) (WPF)**
   
   The application is written in .NET using WPF for the GUI. Python is also used along with its Librosa library.  
