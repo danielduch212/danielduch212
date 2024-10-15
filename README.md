@@ -10,10 +10,14 @@ Currently, I build projects using Blazor technology - both WASM and Blazor Serve
 ### Patient Blazor Hybrid (WASM + Server) App
 (Currently working on )
 
+![photo](https://github.com/user-attachments/assets/abf23f67-e4bc-4dea-9c3d-dabc1d010788)
+
 It is an app for patients who wants their health to be constantly supervised.
 More of how it works you can find in readme in repository (link below).
 It is made in clean code Pattern. Whole infrastructure is made using Azure Cloud Services.
 (Sql base, Blob Storage, Insights, App Service.
+
+
 
 
 You can watch this app working here:
@@ -23,9 +27,10 @@ Repository:
 [Patient_Repository](https://github.com/danielduch212/Patient)
 
 
-
 ### ASP.NET 8 API Car Repair Workshops
 (More in the README of the project.)
+
+![carRepairWorkshopsSwagger](https://github.com/user-attachments/assets/931bb093-8bd9-419b-98fb-c2020a8eb01d)
 
 **It is an API for car repair workshops.**  
 This API is written in ASP.NET 8 with Entity Framework to build the database and other useful packages.  
