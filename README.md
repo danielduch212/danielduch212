@@ -2,7 +2,6 @@
 <p><u>.NET Developer</u> - interested in this technology since studying at the <u>Silesian University of Technology.</u></p>
 
 In the past, I worked on desktop apps using WinForms and WPF - sample projects are down below.
-
 Currently, I build projects using <u>Blazor technology - both WASM and Blazor Server. </u>
 
 
@@ -27,6 +26,7 @@ It is an app for patients who wants their health to be constantly supervised. Mo
 ![carRepairWorkshopsSwagger](https://github.com/user-attachments/assets/931bb093-8bd9-419b-98fb-c2020a8eb01d)
 
 **It is an API for car repair workshops.**  
+
 This API is written in ASP.NET 8 with Entity Framework to build the database and other useful packages. It is built using the Clean Code Pattern and CQRS. The application is adjusted to work with Azure Web Services + SQL Database. It uses Blob Storage and has functions to manage access to it. Basic CI/CD is used.
 
 <u>I made the Azure infrastructure for this project, and you can access this API by clicking this site:  </u>
@@ -38,10 +38,12 @@ This API is written in ASP.NET 8 with Entity Framework to build the database and
 ## Previous Projects
 
 
-- **DJ App 2023/2024 (C#) (WPF)**  
+- **DJ App 2023/2024 (C#) (WPF)**
+  
   The application is written in .NET using WPF for the GUI. Python is also used along with its Librosa library.  
   It mainly explores sound processing techniques and multithreading.  
-  The application is written according to the MVVM pattern.  
+  The application is written according to the MVVM pattern.
+  
   ![screen2](https://github.com/danielduch212/danielduch212/assets/72360092/99f4fc95-b9b1-417a-9494-f748649bc349)  
   [DJ App](https://github.com/danielduch212/DjProgram)
 
