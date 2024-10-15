@@ -1,5 +1,5 @@
-# Daniel Duchnowicz  
-<u>.NET Developer</u> - interested in this technology since studying at the <u>Silesian University of Technology.</u>
+<h1>Daniel Duchnowicz</h1> 
+<p><u>.NET Developer</u> - interested in this technology since studying at the <u>Silesian University of Technology.</u></p>
 
 In the past, I worked on desktop apps using WinForms and WPF - sample projects are down below.
 
