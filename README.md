@@ -1,48 +1,68 @@
-<h1>Daniel Duchnowicz <br/></h1>
+# Daniel Duchnowicz  
+.NET Developer - interested in this technology since studying at the Silesian University of Technology.
 
-<h2> Current Projects </h2>
+In the past, I worked on desktop apps using WinForms and WPF - sample projects are down below.
 
-- <h3> ASP.NET 8 API Car repair Workshops </h3>
-  <b> ASP.NET 8 API </b>
-  <b> It is an api for car repair workshops. </b>
-  <b> Concept is that multiple workshops can access this api and use multiple useful functions. </b>
-  <b> This api provides 3 type of users: Admin, Workshop Owner and Mechanic. </b>
-  <b> Each user has access to different functions </b>
-  <b> This api is written in ASP .NET 8 with Entity Framework to build database and with other useful packages </b>
-  <b> It is build using Clean Code Pattern and CQRS </b>
-  <b> The Application is adjusted to work with Azure Web Services + SQL Database </b>
-  <b> It uses Blob Storage - and have functions to manage access to it. </b>
-  <b> Used basic CI/CD </b>
-  https://github.com/danielduch212/CarRepairWorkshops
-  
+Currently, I build projects using Blazor technology - both WASM and Blazor Server.
+
+## Current Projects
+
+### Patient Blazor Hybrid (WASM + Server) App
+(Currently working on )
+
+It is an app for patients who wants their health to be constantly supervised.
+More of how it works you can find in readme in repository (link below).
+It is made in clean code Pattern. Whole infrastructure is made using Azure Cloud Services.
+(Sql base, Blob Storage, Insights, App Service.
 
 
-<h2> Academic Projects:</h2>
+You can watch this app working here:
+[Dzielny-pacjent](https://dzielny-pacjent.pl)
 
-- <b> DJ App 2023/2024 (C#) (WPF). </b>
-  <b> The application is written in .NET using WPF for the GUI. Python is also used along with its Librosa library. </b>
-  <b> It mainly explores sound processing techniques and multithreading. </b>
-  <b> The application is written according to the MVVM pattern. </b>
-  
-  ![screen2](https://github.com/danielduch212/danielduch212/assets/72360092/99f4fc95-b9b1-417a-9494-f748649bc349)
+Repository:
+[Patient_Repository](https://github.com/danielduch212/Patient)
 
 
 
-  - [DJ App](https://github.com/danielduch212/DjProgram)
-    
-- <b> Application supporting a library (3 views) (C#) (WinForms) 2023 (Teamwork of 3 people). </b>
-  <b> The application is written in .NET using WinForms. Entity Framework was used for database creation. It was a team project - the application managed three views representing the library system. </b>
-  - [Application supporting a library](https://github.com/danielduch212/LibraryManagmentStudio)
-    
-- <b> Color Histogram (C#) (Assembler) 2022. </b>
-  <b> An application combining .NET with assembler language. The application worked as follows: the user loaded an image in the GUI, and the program generated its color histogram. </b>
-  - [Color Histogram](https://github.com/danielduch212/Histogram-Barw)
+### ASP.NET 8 API Car Repair Workshops
+(More in the README of the project.)
 
-- <b> Airline Ticket Management Application (C#) 2021/2022. </b>
-  <b> The application is written on the .NET platform using WinForms for the GUI. It managed the sale of airline tickets to various destinations. </b>
-  - [PolslAir](https://github.com/danielduch212/PolslAir)
-    
-- <b> Decision Tree app (C++) 2020/2021. </b>
-  <b> My first programming project. It is written in C++. </b>
-  - [Decision Tree](https://github.com/danielduch212/Drzewo-Decyzyjne-2020)
+**It is an API for car repair workshops.**  
+This API is written in ASP.NET 8 with Entity Framework to build the database and other useful packages.  
+It is built using the Clean Code Pattern and CQRS.  
+The application is adjusted to work with Azure Web Services + SQL Database.  
+It uses Blob Storage and has functions to manage access to it.  
+Basic CI/CD is used.
 
+I made the Azure infrastructure for this project, and you can access this API by clicking this site:  
+[Swagger for Car Repair Workshops API](https://carrepairworkshops-api-prod-a8cfb0eddjbmbmc8.polandcentral-01.azurewebsites.net/swagger/index.html)
+
+And here is the direct link to the repository of this API:  
+[CarRepairWorkshops Repository](https://github.com/danielduch212/CarRepairWorkshops)
+
+## Previous Projects
+
+### Academic Projects
+
+- **DJ App 2023/2024 (C#) (WPF)**  
+  The application is written in .NET using WPF for the GUI. Python is also used along with its Librosa library.  
+  It mainly explores sound processing techniques and multithreading.  
+  The application is written according to the MVVM pattern.  
+  ![screen2](https://github.com/danielduch212/danielduch212/assets/72360092/99f4fc95-b9b1-417a-9494-f748649bc349)  
+  [DJ App](https://github.com/danielduch212/DjProgram)
+
+- **Application supporting a library (3 views) (C#) (WinForms) 2023 (Teamwork of 3 people)**  
+  The application is written in .NET using WinForms. Entity Framework was used for database creation. It was a team project - the application managed three views representing the library system.  
+  [Application supporting a library](https://github.com/danielduch212/LibraryManagmentStudio)
+
+- **Color Histogram (C#) (Assembler) 2022**  
+  An application combining .NET with assembler language. The application worked as follows: the user loaded an image in the GUI, and the program generated its color histogram.  
+  [Color Histogram](https://github.com/danielduch212/Histogram-Barw)
+
+- **Airline Ticket Management Application (C#) 2021/2022**  
+  The application is written on the .NET platform using WinForms for the GUI. It managed the sale of airline tickets to various destinations.  
+  [PolslAir](https://github.com/danielduch212/PolslAir)
+
+- **Decision Tree app (C++) 2020/2021**  
+  My first programming project. It is written in C++.  
+  [Decision Tree](https://github.com/danielduch212/Drzewo-Decyzyjne-2020)
