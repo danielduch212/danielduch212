@@ -1,10 +1,31 @@
 <h1>Daniel Duchnowicz</h1> 
-<p><u>.NET Developer</u> - interested in this technology since studying at the <u>Silesian University of Technology.</u></p>
+<p><u> DevOps,.NET Developer </u> - interested in this technology since studying at the <u>Silesian University of Technology.</u></p>
 
 In the past, I worked on desktop apps using WinForms and WPF - sample projects are down below.
-Currently, I build projects using <u>Blazor technology - both WASM and Blazor Server. </u>
+Also, I build projects using <u>Blazor technology - both WASM and Blazor Server and WEBAPIs (ASP.NET Core)</u>
+Currently I build DevOps slutions using Github Actions, Kubernetes and Terraform.
+
+<h2>DevOps</h2>
+## <u>**Solution for frontend developers**</u>
+I am creating solution for developers when there is a problem with multiple environments.
+This solution makes it easy for frontend developers to test changes they did and commited to repository by creating test environment in cloud.
+This solution is based on two repositories and actions inside them.
+
+[Backend repository](https://github.com/danielduch212/FrontendSolutionLogic1)
+[Frontend repository](https://github.com/danielduch212/FrontendSolutionFront1)
+
+So the point is - backend developers upload backend (api) with commiting changes and then github action is working.
+Github action uploads building artfiacts to amazon S3.  [backend action file](https://github.com/danielduch212/FrontendSolutionLogic1/actions/runs/11824905181/workflow)
+
+Frontend developers change their repository and by commiting changes they are allowed to have dynamic test environment which is generated in AWS Cloud - let's get into this action:
+[frontend action file](https://github.com/danielduch212/FrontendSolutionFront1/actions/runs/11856652569/workflow)
+
+- So first frontend is built after testing and artifacts after build are also pushed to S3 bucket in hashed folder - based on commit. (build job)
+- In Deploy segment - Backend from S3 is downloaded and pipeline creates Lambda Aspnetcore - based on backend - and bacause lambda is serverless - pipeline creates also Api Gateway which will listen for requests for api - and if it gets one - it invokes lambda.
+- Bacause of that - after pipeline is finished - programmer gets URL to CloudFront app - where it is possible to test their code.
 
 
+<h2>.NET Projects</h2>
 ## <u>**Patient Blazor Hybrid (WASM + Server) App**</u>
 (Currently working on)
 
@@ -14,7 +35,6 @@ It is an app for patients who wants their health to be constantly supervised. Mo
 
 
 <u>You can watch this app working here: </u>
-[Dzielny-pacjent](https://dzielny-pacjent.pl)
 
 <u>Repository: </u>
 [Patient_Repository](https://github.com/danielduch212/Patient)
@@ -29,16 +49,11 @@ It is an app for patients who wants their health to be constantly supervised. Mo
 
 This API is written in ASP.NET 8 with Entity Framework to build the database and other useful packages. It is built using the Clean Code Pattern and CQRS. The application is adjusted to work with Azure Web Services + SQL Database. It uses Blob Storage and has functions to manage access to it. Basic CI/CD is used.
 
-<u>I made the Azure infrastructure for this project, and you can access this API by clicking this site:  </u>
-[Swagger for Car Repair Workshops API](https://carrepairworkshops-api-prod-a8cfb0eddjbmbmc8.polandcentral-01.azurewebsites.net/swagger/index.html)
 
 <u>And here is the direct link to the repository of this API: </u>
 [CarRepairWorkshops Repository](https://github.com/danielduch212/CarRepairWorkshops)
 
 ## Previous Projects
-
-
-
 
 - **DJ App 2023/2024 (C#) (WPF)**
   
@@ -49,18 +64,5 @@ This API is written in ASP.NET 8 with Entity Framework to build the database and
   ![screen2](https://github.com/danielduch212/danielduch212/assets/72360092/99f4fc95-b9b1-417a-9494-f748649bc349)  
   [DJ App](https://github.com/danielduch212/DjProgram)
 
-- **Application supporting a library (3 views) (C#) (WinForms) 2023 (Teamwork of 3 people)**  
-  The application is written in .NET using WinForms. Entity Framework was used for database creation. It was a team project - the application managed three views representing the library system.  
-  [Application supporting a library](https://github.com/danielduch212/LibraryManagmentStudio)
 
-- **Color Histogram (C#) (Assembler) 2022**  
-  An application combining .NET with assembler language. The application worked as follows: the user loaded an image in the GUI, and the program generated its color histogram.  
-  [Color Histogram](https://github.com/danielduch212/Histogram-Barw)
 
-- **Airline Ticket Management Application (C#) 2021/2022**  
-  The application is written on the .NET platform using WinForms for the GUI. It managed the sale of airline tickets to various destinations.  
-  [PolslAir](https://github.com/danielduch212/PolslAir)
-
-- **Decision Tree app (C++) 2020/2021**  
-  My first programming project. It is written in C++.  
-  [Decision Tree](https://github.com/danielduch212/Drzewo-Decyzyjne-2020)
