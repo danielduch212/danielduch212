@@ -6,7 +6,8 @@ Also, I build projects using <u>Blazor technology - both WASM and Blazor Server 
 Currently I build DevOps slutions using Github Actions, Kubernetes and Terraform.
 
 <h2>DevOps</h2>
-## <u>**Solution for frontend developers**</u>
+<h3>Solution for frontend developers</h3>
+
 I am creating solution for developers when there is a problem with multiple environments.
 This solution makes it easy for frontend developers to test changes they did and commited to repository by creating test environment in cloud.
 This solution is based on two repositories and actions inside them.
