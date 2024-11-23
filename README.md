@@ -5,10 +5,9 @@ In the past, I worked on desktop apps using WinForms and WPF - sample projects a
 Also, I build projects using <u>Blazor technology - both WASM and Blazor Server and WEBAPIs (ASP.NET Core)</u>
 Currently I build DevOps slutions using Github Actions, Kubernetes and Terraform.
 
-<h2>DevOps</h2>
-<h3>Solution for frontend developers</h3>
+<h2>Solution for frontend developers (DevOps, GithubActions, AWS)</h3>
 
-I am creating solution for developers when there is a problem with multiple environments.
+I create solution for developers when there is a problem with multiple environments.
 This solution makes it easy for frontend developers to test changes they did and commited to repository by creating test environment in cloud.
 This solution is based on two repositories and actions inside them.
 
@@ -26,8 +25,7 @@ Frontend developers change their repository and by commiting changes they are al
 - Bacause of that - after pipeline is finished - programmer gets URL to CloudFront app - where it is possible to test their code.
 
 
-<h2>.NET Projects</h2>
-## <u>**Patient Blazor Hybrid (WASM + Server) App**</u>
+<h2>Patient Blazor Hybrid (WASM + Server) App</h2>
 (Currently working on)
 
 ![photo](https://github.com/user-attachments/assets/abf23f67-e4bc-4dea-9c3d-dabc1d010788)
@@ -41,7 +39,7 @@ It is an app for patients who wants their health to be constantly supervised. Mo
 [Patient_Repository](https://github.com/danielduch212/Patient)
 
 
-## <u>**ASP.NET 8 API Car Repair Workshops**</u>
+<h2>ASP.NET 8 API Car Repair Workshops</h2>
 (More in the README of the project.)
 
 ![carRepairWorkshopsSwagger](https://github.com/user-attachments/assets/931bb093-8bd9-419b-98fb-c2020a8eb01d)
@@ -54,9 +52,7 @@ This API is written in ASP.NET 8 with Entity Framework to build the database and
 <u>And here is the direct link to the repository of this API: </u>
 [CarRepairWorkshops Repository](https://github.com/danielduch212/CarRepairWorkshops)
 
-## Previous Projects
-
-- **DJ App 2023/2024 (C#) (WPF)**
+<h2>DJ App 2023/2024 (C#) (WPF)</h2>
   
   The application is written in .NET using WPF for the GUI. Python is also used along with its Librosa library.  
   It mainly explores sound processing techniques and multithreading.  
