@@ -7,33 +7,26 @@ Currently I build DevOps slutions using Github Actions, Kubernetes and Terraform
 
 <h2>Solution for frontend developers (DevOps, GithubActions, AWS)</h3>
 
-I create solution for developers when there is a problem with multiple environments.
-This solution makes it easy for frontend developers to test changes they did and commited to repository by creating test environment in cloud.
-This solution is based on two repositories and actions inside them.
+Solution for frontend developers to test their changes by creating test environment (Api + Frontend) using cloud. This solution is based on two repositories and actions inside them.
 
 [Backend repository](https://github.com/danielduch212/FrontendSolutionLogic1)
 [Frontend repository](https://github.com/danielduch212/FrontendSolutionFront1)
 
-So the point is - backend developers upload backend (api) with commiting changes and then github action is working.
-Github action uploads building artfiacts to amazon S3.  [backend action file](https://github.com/danielduch212/FrontendSolutionLogic1/actions/runs/11824905181/workflow)
+You can see workflow diagrams inside those repositories. All in all - frontend developer after commiting changes - gets dynamically created URL to test app. (CloudFront)
 
-Frontend developers change their repository and by commiting changes they are allowed to have dynamic test environment which is generated in AWS Cloud - let's get into this action:
-[frontend action file](https://github.com/danielduch212/FrontendSolutionFront1/actions/runs/11856652569/workflow)
+Cloud Services used: 
+  - AWS: CloudFront, S3, Lambda Asp .NET core, Api Gateway.
 
-- So first frontend is built after testing and artifacts after build are also pushed to S3 bucket in hashed folder - based on commit. (build job)
-- In Deploy segment - Backend from S3 is downloaded and pipeline creates Lambda Aspnetcore - based on backend - and bacause lambda is serverless - pipeline creates also Api Gateway which will listen for requests for api - and if it gets one - it invokes lambda.
-- Bacause of that - after pipeline is finished - programmer gets URL to CloudFront app - where it is possible to test their code.
+Diagram presents process in a nutshell (more details in those repositories):
+
+![Pusty diagram (1)](https://github.com/user-attachments/assets/871d89bb-75ed-451d-968a-cd813c340c03)
 
 
 <h2>Patient Blazor Hybrid (WASM + Server) App</h2>
-(Currently working on)
 
 ![photo](https://github.com/user-attachments/assets/abf23f67-e4bc-4dea-9c3d-dabc1d010788)
 
-It is an app for patients who wants their health to be constantly supervised. More of how it works you can find in readme in repository (link below). It is made in clean code Pattern. Whole infrastructure is made using Azure Cloud Services (Sql base, Blob Storage, Insights, App Service.
-
-
-<u>You can watch this app working here: </u>
+It is an app for patients who wants their health to be constantly supervised. More of how it works you can find in readme in repository (link below). It is made in clean code Pattern. Whole infrastructure is made using Azure Cloud Services (Sql base, Blob Storage, Insights, App Service).
 
 <u>Repository: </u>
 [Patient_Repository](https://github.com/danielduch212/Patient)
