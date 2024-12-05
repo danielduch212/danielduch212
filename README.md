@@ -19,7 +19,8 @@ Cloud Services used:
 
 Diagram presents process in a nutshell (more details in those repositories):
 
-![Pusty diagram (1)](https://github.com/user-attachments/assets/871d89bb-75ed-451d-968a-cd813c340c03)
+![Blank diagram (3)](https://github.com/user-attachments/assets/ad1b3f08-acbc-446a-8879-a79c4502217d)
+
 
 
 <h2>Patient Blazor Hybrid (WASM + Server) App</h2>
