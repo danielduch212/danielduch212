@@ -5,8 +5,15 @@ In the past, I worked on desktop apps using WinForms and WPF - sample projects a
 Also, I build projects using <u>Blazor technology - both WASM and Blazor Server and WEBAPIs (ASP.NET Core)</u>
 Currently I build DevOps slutions using Github Actions, Kubernetes and Terraform.
 
-<h2>Solution for frontend developers (DevOps, GithubActions, AWS)</h3>
+<h2> Cluster creation and managment (DevOps) </h2>
+<h4> Technologies: AWS Cloud, Github Actions, Terraform, Kubernetes, Containers </h4>
 
+In a nutshell - this projects shows creation of cluster which uses our projects (api, front) as containers in pods. To create infrastructure I use IaC solution - Terraform. What is more - when developers (frontend, api) create new version of app - those versions are deployed to Cluster - using Deployment (Elastic Kubernetes Service). Explicit details you can see in readme there: [main repository](https://github.com/danielduch212/MainClusterProject).
+
+(cluster diagram soon)
+
+<h2>Solution for frontend developers (DevOps, )</h3>
+<h4>Technologies: GithubActions, AWS</h4>
 Solution for frontend developers to test their changes by creating test environment (Api + Frontend) using cloud. This solution is based on two repositories and actions inside them.
 
 [Backend repository](https://github.com/danielduch212/FrontendSolutionLogic1)
