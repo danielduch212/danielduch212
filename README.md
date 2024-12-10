@@ -10,7 +10,8 @@ Currently I build DevOps slutions using Github Actions, Kubernetes and Terraform
 
 In a nutshell - this projects shows creation of cluster which uses our projects (api, front) as containers in pods. To create infrastructure I use IaC solution - Terraform. What is more - when developers (frontend, api) create new version of app - those versions are deployed to Cluster - using Deployment (Elastic Kubernetes Service). Explicit details you can see in readme there: [main repository](https://github.com/danielduch212/MainClusterProject).
 
-(cluster diagram soon)
+![Diagram Klaster](https://github.com/user-attachments/assets/082b1437-0df5-4d4c-a367-91e9035a55a4)
+
 
 <h2>Solution for frontend developers (DevOps, )</h3>
 <h4>Technologies: GithubActions, AWS</h4>
